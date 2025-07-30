@@ -12,3 +12,18 @@ let competencia = "Front-End com JavaScript"
 
 console.log(`Estamos no Senac ${uni}, na UC${uc} estudando ${competencia}.`);
 
+// Usando Aspas em texto para log ERRADO
+// console.log("Gosto "muito" de paçoca");
+
+// CORRETO! Aspas simples como comando, e duplas como texto
+console.log('Gosto "muito" de paçoca');
+
+// CORRETO! Aspas duplas como comando, e simples como texto
+console.log("Gosto 'muito' de paçoca");
+
+// CORRETO! Escapando as aspas como texto
+console.log("Gosto \"muito\" de paçoca");
+
+
+
+
