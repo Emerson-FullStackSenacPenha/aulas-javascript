@@ -1,3 +1,5 @@
+'use strict';
+
 /*Exercícios*/
 
 // 1) Crie uma variável chamada "uc" e coloque nela o número da UC que estamos
