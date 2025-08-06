@@ -20,5 +20,14 @@ const coisas = [10, "Senac", "<h2>Oie</h2>", setInterval, 15.88];
 console.log(coisas[1]);
 console.log(coisas[4]);
 
+/* Exercicio (FAÇA AQUI MESMO!) */
 
+// 1) Crie um array contendo o nome de 7 coisas que você gosta (exemplos: artista, músicas, livros, comida... sei lá, inventa!)
 
+// 2) Em seguida, mostre no console uma frase presonalizada indicando o seguindo, o quinto e o sétimo elemendo do array. Use concatenação e/ou template string.
+
+const bandas = ["Nirvana", "Alice in Chains", "Pearl Jam", "Stone Temple Pilots", "Bush", "Silverchair", "Melvins"]
+
+console.log(`Nos anos 90, o grunge estava em alta com bandas como ${bandas[1]} e a consagrada ${bandas[4]}, sem deixar de esquecer da banda ${bandas[6]} `);
+
+console.log ("Nos anos 90, o grunge estava em alta com bandas como " + bandas[1] + " e a consagrada " + bandas[4] + ", sem deixar de esquecer da banda " + bandas[6] )
