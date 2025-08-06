@@ -31,3 +31,17 @@ const bandas = ["Nirvana", "Alice in Chains", "Pearl Jam", "Stone Temple Pilots"
 console.log(`Nos anos 90, o grunge estava em alta com bandas como ${bandas[1]} e a consagrada ${bandas[4]}, sem deixar de esquecer da banda ${bandas[6]} `);
 
 console.log ("Nos anos 90, o grunge estava em alta com bandas como " + bandas[1] + " e a consagrada " + bandas[4] + ", sem deixar de esquecer da banda " + bandas[6] )
+
+
+
+
+/* Array como Matriz de 2 dimensões */
+const tecnologias = [
+
+    ["HTML", "CSS", "JAVASCRIPT"], 
+    ["FIGMA", "PhotoShop"],
+    ["PHP", "Node.js", "SQL", "Express"]
+
+];
+
+console.log(tecnologias);
