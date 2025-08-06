@@ -76,6 +76,43 @@ console.log(livros);
 console.log(livros[2].titulo);
 
 
+/* Exercícios
+
+1. Crie um objeto chamado "aluno" contendo os seguintes dados:
+
+- Nome Completo
+- Data de Nascimento
+- (Use ARRAY) Lista de telefones (fixo e celular)
+- (DESAFIO: use um OBJETO nesta propriedade) Endereço contendo (separadamente):
+  - rua
+  - número
+  - bairro
+
+2. Mostre no console o nome do aluno, o telefone celular e o bairro em que mora. */
+
+const aluno = {
+
+    nome_completo: "Emerson de Andrade",
+    data_nascimento: "13/07/1992",
+
+    telefones: [
+
+        "11 4848-2058",
+        "11 94064-6240"
+
+    ],
+
+    endereco: {
+
+        rua: "Mapu",
+        numero: "09",
+        bairro: "Penha"
+
+    }
+
+}
+
+console.log( ` ${aluno.nome_completo}, ${aluno.telefones[1]}, ${aluno.endereco.bairro}` );
 
 
 
