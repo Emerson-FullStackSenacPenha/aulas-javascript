@@ -44,4 +44,10 @@ const tecnologias = [
 
 ];
 
-console.log(tecnologias);
+// console.log(tecnologias);
+console.log(tecnologias[0][2]); // JAVASCRIPT
+console.log(tecnologias[1][0]); // Figma
+console.log(tecnologias[2][3]); // Express
+
+console.log(` Hoje estou aprendendo ${tecnologias[0][2]} `);
+
