@@ -75,3 +75,8 @@ if (notas >9) {
 } else {
     console.log("Péssimo");
 }
+
+// Condicional composta com operador ternário ( ?: )
+
+let situacao = idade >= 18 ? "Maior" : "Menor";
+console.log(situacao);
