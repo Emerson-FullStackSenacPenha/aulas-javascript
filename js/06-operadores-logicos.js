@@ -33,3 +33,19 @@ console.log(resultadoComparacao);
 Ao usar == a comparação é domente do VALOR, ou seja, não importa o tipo de dados (String, Number, Etc)
 
 Ao usar === a comparação é do VALOR e do TIPO de dado, ou seja, importa tudo. */
+
+console.log("\nExemplo ||");
+// || -> retorna VERDADEIRO se pelo menos uma das condições for VERDADEIRA
+
+let feriado = false;
+let fimDeSemana = true;
+
+// if(feriado === true || fimDeSemana === true){ explicito
+
+if(feriado || fimDeSemana){ // implicito
+    console.log("Não tem aula!");
+}else{
+    console.log("Tem aula!");
+}
+
+
