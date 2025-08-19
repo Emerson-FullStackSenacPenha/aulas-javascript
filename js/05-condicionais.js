@@ -30,6 +30,18 @@ if (idade < 18) {
     console.log("Você é maior de idade!");
 }
 
+// Exercicios de Condicionais
+
+let nota_1 = 3
+let nota_2 = 7
+
+let media = (nota_1+nota_2)/2
+
+if (media >= 7) {
+    console.log("Aprovado!🐱");
+} else {
+    console.log("Reprovado!😿");
+}
 
 
 
