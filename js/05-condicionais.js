@@ -43,6 +43,18 @@ if (media >= 7) {
     console.log("Reprovado!😿");
 }
 
+// Testando com 3 condições
 
+console.log("Teste 3");
+
+let resultado = 4
+
+if (resultado <=5) {
+    console.log("Vixi");
+} else if ( resultado == 6) {
+    console.log("Aee");
+} else {
+    console.log("Zica!");
+}
 
 
