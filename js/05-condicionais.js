@@ -64,7 +64,7 @@ if (resultado <=5) {
 - Média acima de 7 ? Bom
 - Média acima de 5 ? Ruim
 - Média até 5 ? Péssimo */
-let notas = 10
+let notas = 5
 
 if (notas >9) {
     console.log("Ótimo");
