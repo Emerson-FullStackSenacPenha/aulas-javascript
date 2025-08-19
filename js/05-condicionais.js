@@ -58,3 +58,20 @@ if (resultado <=5) {
 }
 
 
+/* Verificando o desempronho do aluno conforme a média:
+
+- Média acima de 9 ? Ótimo
+- Média acima de 7 ? Bom
+- Média acima de 5 ? Ruim
+- Média até 5 ? Péssimo */
+let notas = 10
+
+if (notas >9) {
+    console.log("Ótimo");
+} else if(notas >7) {
+    console.log("Bom");
+} else if(notas >5) {
+    console.log("Ruim");
+} else {
+    console.log("Péssimo");
+}
