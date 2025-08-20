@@ -41,6 +41,85 @@ const bandas = ["Slayer", "Metallica", "Iron Maiden", "NightWish", "Judas Priest
 // Usando loop for tradicional
 
 for( let i = 0; i < bandas.length; i++ ){
-    console.log( bandas[i] );
-    
+    console.log( bandas[i] );   
 }
+
+console.log("\n---------\n");
+
+// Usando loop for/of (excluisvo do JS)
+
+for( const banda of bandas ) {
+    console.log(banda);
+}
+
+
+console.log("\nExemplo 5: loop e objeto");
+
+const pessoa = {
+
+    nome: "Fulano da Silva",
+    idade: 40,
+    cidade: "São Paulo",
+    estado: "SP"
+
+};
+
+// Usando o loop for/in para objetos (exclusivo do JS)
+
+for(const prop in pessoa){
+    console.log(pessoa[prop]);   
+}
+
+console.log("\n Exercicios de Looping");
+
+const clientes = [
+
+    {
+        nome: "Dio",
+        identificador: "1"
+    },
+
+    {
+        nome: "Ozzy",
+        identificador: "2"
+    },
+
+    {
+        nome: "Ian",
+        identificador: "3"
+    }
+
+];
+
+
+console.log(`Clinete: ${clientes[0].nome}, ID: ${clientes[0].identificador}`);
+console.log("Cliente: " + clientes[0].nome + ", ID: " + clientes[0].identificador );
+
+
+let k = 0;
+while(k < clientes.length){
+    console.log(`Clinete: ${clientes[k].nome}, ID: ${clientes[k].identificador}`);
+    k++;
+}
+
+for( let i = 0; i < clientes.length; i++ ){
+    console.log("Cliente: " + clientes[i].nome + ", ID: " + clientes[i].identificador );  
+}
+
+
+for( const banda of clientes ) {
+    console.log(banda);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
