@@ -28,3 +28,19 @@ console.log("\nExemplo 2: FOR (para)");
 for( let j = 1; j <= 10; j++ ){
     console.log("J vale "+j);   
 }
+
+console.log("\nExemplo 3: loop regressivo");
+for( let k = 10; k >=0; k-- ){
+    console.log("K vale "+k);
+}
+
+console.log("\nExemplo 4: Loop e Array");
+
+const bandas = ["Slayer", "Metallica", "Iron Maiden", "NightWish", "Judas Priest"];
+
+// Usando loop for tradicional
+
+for( let i = 0; i < bandas.length; i++ ){
+    console.log( bandas[i] );
+    
+}
