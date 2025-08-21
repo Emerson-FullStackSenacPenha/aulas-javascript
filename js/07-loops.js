@@ -117,6 +117,78 @@ for( const banda of clientes ) {
 
 
 
+const armario = [
+
+    {
+        cor: "Vermelho",
+        tamanho: "P",
+    },
+
+    {
+        cor: "Verde",
+        tamanho: "M",
+    },
+
+    {
+        cor: "Azul",
+        tamanho: "G",
+    }
+
+]
+
+console.log(`A minha meia ${armario[1].cor} é do tamanho ${armario[2].tamanho}`);
+console.log("A minha meia "+ armario[2].cor + " é do tamanho " + armario[0].tamanho);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
