@@ -1,5 +1,48 @@
 'use strict';
 
+'use strict';
+
+/* =====================================
+   EXERCÍCIOS DE ARRAYS E OBJETOS
+   =====================================
+
+1. Array simples
+   - Crie um array chamado "frutas" com 5 frutas.
+   - Imprima a primeira e a última fruta usando console.log().
+
+2. Modificando um Array
+   - Crie um array "numeros" com 5 números.
+   - Altere o terceiro número para outro valor.
+   - Imprima todo o array.
+
+3. Objeto simples
+   - Crie um objeto "carro" com propriedades: marca, modelo, ano.
+   - Imprima o modelo do carro usando console.log().
+
+4. Objeto com Array
+   - Crie um objeto "armario" com uma propriedade "gavetaDeMeias" que seja um array com 4 cores de meias.
+   - Imprima a primeira e a última meia.
+
+5. Array de Objetos
+   - Crie um array "armarios" com 2 objetos.
+   - Cada objeto representa um armário com propriedades "camisa" e "calca".
+   - Imprima a cor da camisa do segundo armário.
+
+6. Objeto com Array dentro de Objeto
+   - Crie um objeto "quarto" com uma propriedade "armario" que seja um objeto.
+   - Dentro de "armario", crie uma propriedade "gavetas" que seja um array de elementos (ex.: nomes ou conteúdos).
+   - Imprima o primeiro elemento da gaveta.
+
+7. Exercício Avançado – Armários do Quarto2
+   - Crie um objeto "quarto2" com uma propriedade "armarios2", que é um array de 2 objetos.
+   - Cada objeto representa um armário com 2 gavetas:
+       - "gavetaCamisas2" → array com 3 cores de camisas
+       - "gavetaMeias2" → array com 3 cores de meias
+   - Imprima a segunda camisa do segundo armário e a primeira meia do primeiro armário.
+   - Troque a cor da primeira camisa do primeiro armário para outra cor.
+   - Imprima o array de camisas do primeiro armário depois da alteração.
+
+*/
 
 // 1
 let frutas = ["banana", "maça", "laranja", "uva", "melão"];
