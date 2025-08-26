@@ -21,7 +21,7 @@ No JavaScript, existem várias maneiras de se criar uma função:
 console.log("Exemplo 1: Função anônima");
 console.log("\n");
 
-const exemplo1 = function(){
+const exemplo1 = function () {
     // corpo da função: ação que a função vai fazer
     console.log("Olá, função anônima!");
 };
@@ -29,7 +29,7 @@ const exemplo1 = function(){
 exemplo1();
 
 console.log(" \nExemplo 2: Função Nomeada/Declarada ");
-function exemplo2(){
+function exemplo2() {
     console.log("Está é uma função nomeada!");
 }
 
@@ -58,8 +58,8 @@ Geralmente, ao terminar o processamento dos dados, a função "retorna para fora
 
 console.log("\nExemplo 4: Função com parâmetro");
 
-function saudacao( nome = "Visitante" ){
-    console.log("Olá, "+nome);
+function saudacao(nome = "Visitante") {
+    console.log("Olá, " + nome);
 }
 
 saudacao("Emerson");
@@ -70,8 +70,8 @@ saudacao(); // Neste caso, é usado "Visitante" como valor
 
 console.log("\nExemplo 5: Função com parâmetros e retorno");
 
-function multiplicar(valor1, valor2){
- return valor1 * valor2
+function multiplicar(valor1, valor2) {
+    return valor1 * valor2
 }
 
 // Chamamos a função e recebemos o retorno/resultado dela
@@ -79,8 +79,8 @@ let resultado1 = multiplicar(10, 5);
 let resultado2 = multiplicar(200, 10);
 
 // Exibimos o resultado
-console.log("Resultado 1 "+resultado1);
-console.log("Resultado 2 "+resultado2);
+console.log("Resultado 1 " + resultado1);
+console.log("Resultado 2 " + resultado2);
 
 console.log("\n Exemplo 6: Simplificando com Arrow Function");
 
@@ -95,7 +95,35 @@ const somar = (valor1, valor2) => {
     return valor1 + valor2;
 };
 
-console.log(somar(150,500));
+console.log(somar(150, 500));
+
+console.log("\nExemplo 7: Formatando valor monetário");
+
+let preco = 5000;
+let desconto = preco * 0.10; // 10%
+let precoFinal = preco - desconto;
+
+
+function formatarMoeda(valor) {
+    return new Intl.NumberFormat("pt-br", {
+        style: "currency",
+        currency: "BRL"
+    }).format(valor);
+}
+
+
+console.log("Preço Original: " + formatarMoeda(preco));
+console.log("Desconto: " + formatarMoeda(desconto));
+console.log("Preço final : " + formatarMoeda(precoFinal));
+
+
+// Exemplo: usando recursos da classe Intl (Interacionalização)
+const exemplo = new Intl.NumberFormat("pt-br", {
+    style: "currency",
+    currency: "BRL"
+}).format(preco);
+
+console.log(exemplo);
 
 
 
