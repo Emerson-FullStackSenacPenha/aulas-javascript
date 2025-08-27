@@ -70,3 +70,38 @@ referencias.addEventListener("click", function(){
     eventos.textContent = "Eventos";
     eventos.style.textAlign = "left"
 });
+
+// Exemplo 3, criando modo noturno
+
+const botaoModoNoturno = document.querySelector("#noturno");
+
+
+
+botaoModoNoturno.addEventListener("click", function(){
+    
+    /* Usamos o toggle para alterar entre adicionar a classe ou remover a classe, de acordo com cada clique no botão
+    */
+    
+    pagina.classList.toggle("modo-noturno")
+
+    if (pagina.classList.contains("modo-noturno")){
+        botaoModoNoturno.textContent = "Desativar"
+    } else {
+        botaoModoNoturno.textContent = "Ativar"
+    }
+    
+});
+
+
+
+
+
+    /*
+    1) Faça mudança de cores acontecer gradualmente (use transition)
+
+    2) Se o modo noturno estiver ativado, ou seja, se a classe modo-noturno estiver aplicada à pagina, faça o texto do botão mudar para "Desativar".
+    Caso contrário, faça o texto do botão exibir "Ativar".
+    */
+
+
+
