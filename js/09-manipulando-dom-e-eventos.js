@@ -82,7 +82,8 @@ botaoModoNoturno.addEventListener("click", function(){
     /* Usamos o toggle para alterar entre adicionar a classe ou remover a classe, de acordo com cada clique no botão
     */
     
-    pagina.classList.toggle("modo-noturno")
+    pagina.classList.toggle("modo-noturno");
+    pagina.style.transition = "2s";
 
     if (pagina.classList.contains("modo-noturno")){
         botaoModoNoturno.textContent = "Desativar"
